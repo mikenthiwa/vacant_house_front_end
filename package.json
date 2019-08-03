@@ -1,0 +1,45 @@
+{
+  "name": "vacant_houses",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start:android": "react-native run-android",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "@react-native-community/checkbox": "^0.1.0",
+    "react": "16.8.6",
+    "react-native": "0.60.4",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-svg": "^9.7.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.12.1",
+    "react-navigation-drawer": "^2.0.1",
+    "react-navigation-stack": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-native-svg-transformer": "^0.13.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
